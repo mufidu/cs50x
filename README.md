@@ -5,5 +5,5 @@ For your attention, not all the solutions scored 100% on submission, but all of 
 Remember not to just copy and paste the solution, because that breaks the [**Academic Honesty**](https://docs.cs50.net/2016/fall/syllabus/cs50.html#academic-honesty) policy of the course. You must try it by yourself first so you can get the point. Otherwise, it will be meaningless though you get the certificate. <br><br>
 Lastly, I hope this can help other students and please leave a star if so! :) <br><br>
 
-<p></p><ul style="text-align: left;"><li><b>Lab 1&nbsp;</b></li><ul><li><a href="https://github.com/mufidu/cs50x/blob/main/lab1/population.c">population.c</a></li></ul></ul><p></p><br>
+<p></p><ul style="text-align: left;"><li><b>Lab 1&nbsp;</b></li><ul><li><a href="https://github.com/mufidu/cs50x/blob/main/lab1/population.c">population.c</a></li></ul></ul><p></p>
 
