@@ -1,10 +1,10 @@
 sort1 uses: Bubble Sort
 
-How do you know?: Because its speed on the best case is faster than sort3 but slower than sort2, so its omega must be n and so its is Bubble sort.
+How do you know?: Because its speed on the best case is faster than sort3 but slower than sort2, so its omega must be n and so it is Bubble sort.
 
 sort2 uses: Merge Sort
 
-How do you know?: Because it has the fastest speed on the best case. So it's omega must be n log n.
+How do you know?: Because it has the fastest speed on the best case. So it's omega must be n log n, the big O of merge sort.
 
 sort3 uses: Selection Sort
 
