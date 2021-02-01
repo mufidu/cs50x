@@ -62,6 +62,5 @@ with open(argv[1], newline='') as peoplefile:
         if match == len(sequences):
             print(person['name'])
             exit()
-        else:
-            print("No match")
+    print("No match")
     
