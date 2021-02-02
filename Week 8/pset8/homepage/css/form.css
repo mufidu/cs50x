@@ -1,0 +1,16 @@
+.form-style {
+    display: block;
+    margin-bottom: 20px;
+}
+.form-style .input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+textarea.input {
+    height: 150px;
+}
+
+fieldset {
+    border-color: white;
+}

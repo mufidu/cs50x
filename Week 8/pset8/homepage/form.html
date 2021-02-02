@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage | Form</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/form.css" type="text/css">
+</head>
+<body>
+    <section class="container">
+        <header>
+            <img src="vase.jpg" alt="" height="300">
+        </header>
+        <h3>
+            This is a so-called form for you to type your identity. Hope we can interact later!
+        </h3>
+        <section class="content">
+            <form action="proses-login.php">
+                <label class="form-style">
+                    Name
+                    <input class="input" type="text" placeholder="Enter your full name">
+                </label>
+
+                <label class="form-style">
+                    Phone number
+                    <input class="input" type="number" placeholder="Enter your phone number">
+                </label>
+
+                <label class="form-style">
+                    Email
+                    <input class="input" type="email">
+                </label>
+
+                <label class="form-style">
+                    Password
+                    <input class="input" type="password">
+                </label>
+
+                <label class="form-style">
+                    Address
+                    <textarea class="input"></textarea>
+                </label>
+
+                <fieldset class="form-style">
+                    <legend>Hobbies</legend>
+                    <label>
+                        <input type="checkbox" value="Coding"> Coding
+                    </label>
+                    <label>
+                        <input type="checkbox" value="Soccer"> Soccer
+                    </label>
+                    <label>
+                        <input type="checkbox" value="Swimming"> Swimming
+                    </label>
+                </fieldset>
+
+                <fieldset class="form-style">
+                    <legend>Work</legend>
+                    <label>
+                        <input type="radio" value="Student" name="Work"> Student
+                    </label>
+                    <label>
+                        <input type="radio" value="Employee" name="Work"> Employee
+                    </label>
+                    <label>
+                        <input type="radio" value="Civil Servant" name="Work"> Civil Servant
+                    </label>
+                    <label>
+                        <input type="radio" value="Unemployed" name="Work"> Unemployed
+                    </label>
+                </fieldset>
+
+                <label class="form-style">
+                    Size Chart
+                    <select class="input" >
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                </label>
+
+                <label class="form-style">
+                    University
+                    <input list="univ" class="input">
+                    <datalist id="univ">
+                        <option value="HRV">SHARVARD UNIVERSITY
+                        <option value="STF">STANDFORD UNIVERSITY
+                        <option value="CRN">CORNELL UNIVERSITY
+                        <option value="OXF">OXFORD UNIVERSITY
+                    </datalist>
+                </label>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+        <nav class="sidebar">
+            <a href="index.html">Home</a>
+            <a href="form.html" class="active">Form</a>
+            <a href="table.html">Table</a>
+        </nav>
+        <footer>Footer</footer>
+    </section>
+</body>
+</html>
