@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block settings_icon %}
+<div id="settings-icon">
+    <a href="/settings"><span class="fas fa-cog fa-lg settings-icon" alt="Settings"></span></a>
+</div>
+{% endblock %}
+
+{% block main %}
+
+<table class="table table-striped" id="portfolio-table">
+    <thead>
+    <tr>
+        <th>Stock Symbol</th>
+        <th>Number of Shares</th>
+        <th>Current Price</th>
+        <th>Total Value</th>
+    </tr>
+    </thead>
+
+    {% for row in rows %}
+        <tr>
+            <td>{{ row.symbol }}</td>
+            <td>{{ row.sum }}</td>
+            <td>{{ row.current_price }}</td>
+            <td>{{ row.total }}</td>
+        </tr>
+    {% endfor %}
+    <tr class="table-totals">
+        <td></td>
+        <td></td>
+        <th>Stock total: </th>
+        <td>{{ total_stock }}</td>
+    </tr>
+    <tr class="table-totals">
+        <td style="border-top:0;"></td>
+        <td style="border-top:0;"></td>
+        <th>Cash total: </th>
+        <td>{{ cash }}</td>
+    </tr>
+    <tr class="table-totals">
+        <td style="border-top:0;"></td>
+        <td style="border-top:0;"></td>
+        <th>Total assets: </th>
+        <td>{{ asset }}</td>
+    </tr>
+</table>
+
+{% endblock %}
